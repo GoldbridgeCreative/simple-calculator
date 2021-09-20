@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.numpad {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-top: 1em;
+    width: 40vw;
+    font-size: 5em;
+    text-align: end;
+    color: #444;
+    border: 5px double orange;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.row {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    border:none;
+    box-sizing: border-box;
+    background: radial-gradient(mediumslateblue, darkslateblue);
+    color: lavender;
+    transition: all 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+button:active {
+    background: radial-gradient(snow, lavender);
+    color: #444;
+    border-radius: 50%;
+}
